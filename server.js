@@ -49,7 +49,7 @@ app.use(express.static('public'));
 
 // WebSocket Portion
 // WebSockets work with the HTTP server
-var io = require('socket.io')(server);
+var io = require('socket.io')(server, {});
 
 setInterval(heartbeat, 33);
 
