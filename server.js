@@ -31,7 +31,7 @@ app.get('/', function(req, res) {
 app.get('/*', function(req, res) {
   var file = req.params[0];
   // console.log('\t :: Express :: file requested : ' + file);
-  res.sendFile(__dirname + "/client/" + file);
+  res.sendFile(__dirname + "/public/" + file);
 });
 server.listen(process.env.PORT || 3000);
 console.log("Server started on localhost:3000");
