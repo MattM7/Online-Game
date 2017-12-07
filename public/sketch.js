@@ -18,7 +18,8 @@ function setup() {
   createCanvas(900, 800);
   // Start a socket connection to the server
   // Some day we would run this server somewhere else
-  socket = io.connect('http://localhost:3000');
+  //socket = io.connect('http://localhost:3000');
+  socket = io();
 
 
   sprite = new Sprite(random(width), random(height), random(8, 24));
