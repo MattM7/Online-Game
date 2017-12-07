@@ -45,6 +45,7 @@ function Sprite(x, y, r) {
     this.pos.y += this.velY;
   }
 
+
   this.constrain = function() {
     var secondConsNum = 1000 - this.r * 2;
     sprite.pos.x = constrain(sprite.pos.x, -1000, secondConsNum);
