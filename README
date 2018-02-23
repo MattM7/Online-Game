@@ -1,0 +1,3 @@
+The game can be played at https://online-game-mattm.herokuapp.com/
+The controls are WASD or arrow keys to move. When you first load the game you have to press a key in every direction once.
+If you hit another player connected to the server you both respawn in a random location.
